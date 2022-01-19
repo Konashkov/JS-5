@@ -1,4 +1,5 @@
 
-for(i = 1; i<=21;i+=2){
+let LastNumber = Number(prompt("Enter last number"))
+for(i = 1; i<=LastNumber;i+=2){
     console.log(i)
 }
